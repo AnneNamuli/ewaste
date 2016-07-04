@@ -1,0 +1,427 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:background="@drawable/backgrnd">
+
+    <LinearLayout
+        android:layout_width="20dp"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  " />
+
+        <TextView
+            android:id="@+id/textVie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="  "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="match_parent" >
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+  			android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+                <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="20dp"
+               android:orientation="horizontal" >
+ 
+                <TextView
+                    android:id="@+id/textVie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="  "
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                </LinearLayout>
+           <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:id="@+id/top" >     
+                
+                <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:orientation="horizontal" android:background="@drawable/bbb" >
+
+                    <ImageView
+                        android:id="@+id/image1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/Truck" />
+                    
+            </LinearLayout>
+            
+                <LinearLayout
+                android:layout_width="20dp"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+                
+                
+            </LinearLayout>
+            
+                <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="100dp"
+                android:orientation="horizontal" 
+                         android:background="@drawable/bbb">
+                
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="52dp"
+                            android:gravity="center"
+                            android:text="schedule trucks"
+                            android:textAllCaps="true"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#0000ff" />
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="Schedule the movement of the trucks in the area"
+                            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                    </LinearLayout>
+                
+            </LinearLayout>
+            
+                <LinearLayout
+        android:layout_width="20dp"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  " />
+    </LinearLayout>
+        </LinearLayout>    
+        
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="20dp"
+               android:orientation="horizontal" >
+ 
+                <TextView
+                    android:id="@+id/textVie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="  "
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                </LinearLayout>
+           <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:id="@+id/two" >     
+                
+                <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:orientation="horizontal" android:background="@drawable/bbb" >
+
+                    <ImageView
+                        android:id="@+id/image2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_launcher_maps" />
+                    
+            </LinearLayout>
+            
+                <LinearLayout
+                android:layout_width="20dp"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+                
+                
+            </LinearLayout>
+            
+                <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="100dp"
+                android:orientation="horizontal" 
+                         android:background="@drawable/bbb">
+                
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:layout_weight="2.22"
+                            android:gravity="center"
+                            android:text="truck movement"
+                            android:textAllCaps="true"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#0000ff" />
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="match_parent"
+                            android:layout_height="52dp"
+                            android:gravity="center"
+                            android:text="Monitor the truck movement in specific areas"
+                            android:textAppearance="?android:attr/textAppearanceSmall" />
+                    </LinearLayout>
+                
+            </LinearLayout>
+                
+            <LinearLayout
+        android:layout_width="20dp"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  " />
+    </LinearLayout>
+        </LinearLayout>    
+        
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="20dp"
+               android:orientation="horizontal" >
+ 
+                <TextView
+                    android:id="@+id/textVie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="  "
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                </LinearLayout>
+           <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:id="@+id/three" >     
+                
+                <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:orientation="horizontal" android:background="@drawable/bbb" >
+
+                    <ImageView
+                        android:id="@+id/image3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/icon_update_Phone" />
+                    
+            </LinearLayout>
+            
+                <LinearLayout
+                android:layout_width="20dp"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+                
+                
+            </LinearLayout>
+            
+                <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="100dp"
+                android:orientation="horizontal" 
+                         android:background="@drawable/bbb">
+                
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:text="Transactions" 
+                            android:textAllCaps="true"
+                            android:textColor="#0000ff"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_horizontal"
+                            android:text="View the customer payments and transactions"
+                            android:textAppearance="?android:attr/textAppearanceSmall" />
+                    </LinearLayout>
+                
+            </LinearLayout>
+            <LinearLayout
+        android:layout_width="20dp"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  " />
+    </LinearLayout>
+    
+            <LinearLayout
+        android:layout_width="20dp"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  " />
+    </LinearLayout>
+        </LinearLayout>    
+        
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="20dp"
+               android:orientation="horizontal" >
+
+                </LinearLayout>
+           <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:id="@+id/six" >     
+                
+                <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:orientation="horizontal" android:background="@drawable/bbb" >
+
+                    <ImageView
+                        android:id="@+id/image6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="fill"
+                        android:src="@drawable/help1" />
+                    
+            </LinearLayout>
+            
+                <LinearLayout
+                android:layout_width="20dp"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+                
+                
+            </LinearLayout>
+            
+                <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="100dp"
+                android:orientation="horizontal" 
+                         android:background="@drawable/bbb">
+                
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:text="help" 
+                            android:textAllCaps="true"
+                            android:textColor="#0000ff"
+                            android:gravity="center"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_horizontal"
+                            android:text="Get information on how to use the application"
+                            android:textAppearance="?android:attr/textAppearanceSmall" />
+                    </LinearLayout>
+                
+            </LinearLayout>
+            <LinearLayout
+        android:layout_width="20dp"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  " />
+    </LinearLayout>
+    
+            <LinearLayout
+        android:layout_width="20dp"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  " />
+    </LinearLayout>
+        </LinearLayout>    
+        
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="20dp"
+               android:orientation="horizontal" >
+ 
+                <TextView
+                    android:id="@+id/textVie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="  "
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                </LinearLayout>
+        </LinearLayout> 
+           
+</ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.90" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  " />
+    </LinearLayout>
+
+</LinearLayout>
